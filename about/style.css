@@ -270,7 +270,7 @@ p{
 }
 .text-deco{
     text-decoration: none;
-    color: inherit;
+    
 }
 
 .link{
@@ -324,8 +324,8 @@ margin-right: 15%;
 @media only screen and (min-width:200px) and (max-width:650px){
     .h2-white{
         color: #ffffff;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 15px;
+        line-height: 25px;
     
     }
 }
@@ -333,16 +333,16 @@ margin-right: 15%;
 @media only screen and (min-width:200px) and (max-width:650px){
     .h2-light{
         color: #d8e5fd;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 15px;
+        line-height: 25px;
     }   
 }
 
 @media only screen and (min-width:200px) and (max-width:650px){
 .second-h2-white{
     color: #ffffff;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 15px;
+        line-height: 25px;
     
 }
 }
@@ -351,7 +351,7 @@ margin-right: 15%;
 @media only screen and (min-width:200px) and (max-width:650px){
 .second--h2-light{
     color: #d8e5fd;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 15px;
+        line-height: 25px;
 }
 }
