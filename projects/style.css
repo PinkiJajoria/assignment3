@@ -1,0 +1,440 @@
+body{
+    background-color:#fafafa;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100vh;
+
+    
+    
+}
+
+.top-left-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid red; */
+    position: fixed;
+    margin-top: 3%;
+    align-self: flex-end;
+    justify-content: end;
+}
+
+.child-div{
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 10px;
+    color: #7a7a7a;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.top-left-div .child-div-project{
+    /* width: 21%; */
+    /* height: 60%; */
+    display: flex;
+    justify-content: center;
+    color: #7a7a7a;
+    border-bottom: 1px solid #7a7a7a;
+    /* border: 1px solid black; */
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.about{
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact{
+    text-decoration: none;
+    color: inherit;
+}
+
+.resume{
+    text-decoration: none;
+    color: inherit; 
+
+}
+
+.parent-div{
+    width: 100%;
+    /* height: 45%; */
+    /* border: 1px solid black; */
+    margin-top: 15%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 15px 0 #e9e9e9;
+    display: flex;
+
+    
+}
+
+.first-left-div{
+    flex: 1;
+    height: 120%;
+    /* border: 1px solid black; */
+    position: relative;
+    top:-10%
+    
+      
+}
+
+.first-img{
+ width: 35%;
+ height: 100%;
+ margin-left: 30%;
+ box-shadow: 6px 6px 15px 0 #e9e9e9 ;
+
+}
+
+.first-right-div{
+    flex: 1;
+    margin-left: 150px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.top-child{
+    width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+
+}
+
+p{
+    color: #7a7a7a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+h1{
+  color:#333333;
+  font-family: sans-serif;
+}
+
+.btn{
+    border-radius: 8px;
+    padding: 10px;
+    /* width: 20%; */
+    border: 1px solid #333333;
+}
+
+.first-right-div .btn:hover{
+    background-color:#517fcf;
+    color: white;
+    border: none;
+}
+
+
+.second-left-div{
+    flex: 1;
+    /* border: 1px solid black; */
+    position: relative;
+    top: -20%;
+    height: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+  
+   
+}
+
+.video{
+   width: 80%;
+   aspect-ratio: 1;
+   border-radius: 50%;
+   object-fit:cover ;
+
+   
+    
+}
+
+.second-right-div{
+    flex: 1;
+    margin-left: 150px;
+    padding: 20px;
+
+}
+
+
+.second-right-div .btn:hover{
+    background-color:#517fcf;
+    color: white;
+    border: none;
+}
+
+
+.third-left-div{
+    flex: 1;
+    /* border: 1px solid black; */
+    height: 120%;
+    position: relative;
+    top: -10%;
+    left: 2%;
+}
+
+.third-img{
+    width: 100%;
+   height: 100%;
+   border-radius: 20px;
+   box-shadow:  6px 6px 15px 0 #e9e9e9 ;
+
+}
+
+.third-right-div{
+    flex: 1;
+    margin-left: 150px;
+    padding: 20px;
+
+}
+
+.third-right-div .btn:hover{
+    background-color:#517fcf;
+    color: white;
+    border: none;
+}
+.forth-left-div{
+    flex: 1;
+    /* border: 1px solid black; */
+    position: relative;
+    height: 120%;
+    top: -10%;
+    left: 2%;
+
+}
+
+.forth-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px 0 #e9e9e9 ;
+   
+
+}
+
+.forth-right-div{
+    flex: 1;
+    margin-left: 150px;
+    padding: 20px;
+
+}
+
+.forth-right-div .btn:hover{
+    background-color:#517fcf;
+    color: white;
+    border: none;
+}
+
+.fifth-left-div{
+    flex: 1;
+    /* border: 1px solid black; */
+    height: 140%;
+    position: relative;
+    top: -20%;
+    left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.fifth-img{
+    width: 60%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px 0 #e9e9e9 ;
+   
+
+}
+
+.fifth-right-div{
+    flex: 1;
+    margin-left: 150px;
+    padding: 20px;
+
+}
+
+.fifth-right-div .btn:hover{
+    background-color:#517fcf;
+    color: white;
+    border: none;
+
+}
+@media only screen and (min-width:200px) and (max-width:900px){
+    /* background-color:#fafafa; */
+    .parent-div{
+    display: flex;
+    flex-direction: column;      
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width:200px) and (max-width:900px){
+    .first-right-div{
+    
+        flex: 1;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid black; */
+        position: relative;
+        right: 14%;
+        /* bottom: -5%; */
+        font-size: 10px;
+        
+    }
+}
+@media only screen and (min-width:200px) and (max-width:900px){
+    .btn{
+        padding: 5px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:900px){
+    .first-left-div{
+        flex: 1;
+        position: static;
+        width: 60%;
+        right: 50px;
+        /* border: 1px solid black;   */
+    }
+    
+}
+@media only screen and (min-width:200px) and (max-width:900px){
+    .first-img{
+        width: 55%;
+        height: 100%;
+        margin-left: 30%;
+        box-shadow: 6px 6px 15px 0 #e9e9e9 ;
+       
+       }
+
+}
+@media only screen and (min-width:200px) and (max-width:900px){
+    .second-left-div{
+        flex: 1;
+        position: static;
+        width: 60%;
+        right: 50px;
+        /* border: 1px solid black;    */
+    }
+}
+@media only screen and (min-width:200px) and (max-width:900px){
+    .second-right-div{
+        flex: 1;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid black; */
+        position: relative;
+        right: 14%;
+        /* bottom: -5%; */
+        font-size: 10px;
+    }
+}
+
+}
+@media only screen and (min-width:200px) and (max-width:900px){
+.third-left-div{
+    flex: 1;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 0%;
+    box-shadow:6px 6px 15px 0 #e9e9e9 ;
+   
+}
+}
+@media only screen and (min-width:200px) and (max-width:900px){
+    .third-right-div{
+        flex: 1;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid black; */
+        position: relative;
+        right: 14%;
+        /* bottom: -5%; */
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:900px){
+    .forth-left-div{
+        flex: 1;
+        /* border: 1px solid black; */
+        position: relative;
+        left: 0%;
+        box-shadow:6px 6px 15px 0 #e9e9e9 ;  
+    } 
+}
+
+@media only screen and (min-width:200px) and (max-width:900px){
+    .forth-right-div{
+        flex: 1;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid black; */
+        position: relative;
+        right: 14%;
+        /* bottom: -5%; */
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:900px){
+    .fifth-left-div{
+        flex: 1;
+        position: static;
+        width: 60%;
+        right: 50px;
+        /* border: 1px solid black;   */
+    }
+}
+@media only screen and (min-width:200px) and (max-width:900px){
+    .fifth-right-div{
+        flex: 1;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid black; */
+        position: relative;
+        right: 14%;
+        /* bottom: -5%; */
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:512px){
+    .top-left-div{
+margin-right: 15%;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:900px){
+
+}
+@media only screen and (min-width:200px) and (max-width:900px){
+
+}
